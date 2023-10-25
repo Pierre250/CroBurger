@@ -1,0 +1,28 @@
+body{
+    font-family: 'Teko', sans-serif;
+}
+
+body a{
+text-decoration: none;}
+
+nav a{
+    color: #FF914D;
+}
+
+nav a:hover{
+text-decoration: underline;
+color: gray;
+}
+
+.bg-orange{
+    background-color: #FF914D;
+
+}
+
+footer ul{
+    text-decoration: none;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
