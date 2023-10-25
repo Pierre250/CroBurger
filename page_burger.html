@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CroBurger</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="sticky-md-top">
+        <nav class=" bg-light-subtle navbar-expand-md  border-bottom shadow ">
+            <div class="container">
+           
+                <div class="row navbar">
+                 <!-- Liste & button nav bar -->
+                         <button class="navbar-toggler col-2 btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class=" collapse navbar-collapse col-md-5" id="navbarNav">
+                        <ul class="row list-inline text-center fs-5 w-100">
+                            <li class="col-3"><a href="./page_burger.html">La Carte</a></li>
+                            <li  class="col-3"><a href="./page_recrut.html">Nous recrutons</a></li>
+                            <li class="col-3"><a href="./page_localisation.html">Nous trouver</a></li>
+                            <li class="col-3"> <a href="./page_contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                <!-- Logo du site -->
+                    <div class="col-3 text-center col-md-4">
+                        <a href="./indexx.html"> <img src="./img/logo.png" alt="Logo" width="150"></a>
+                    </div>
+                <!-- Bouton commannder  -->
+                    <div class="col-7 d-flex justify-content-end col-md-3"> 
+                      
+                        <div class=" dropdown-center me-3 ">
+                            <a class="btn btn-secondary dropdown-toggle bg-orange fs-md-3 fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                     <i class="bi bi-basket"></i> Commander</a>
+                                   <ul class="dropdown-menu">
+                                     <li><a class="dropdown-item" href="#">Sur place</a></li>
+                                     <li><a class="dropdown-item" href="#">A emporter</a></li>
+                                   </ul>
+                           </div>
+
+                    </div>
+
+                </div>
+
+        </nav>
+    </header>
+
+        <main>
+                <div class="text-center"><h2>Nos produits </h2></div>
+            <section>
+                <div class="row w-100">
+                    <div class="col-2">
+                      <div id="list-example" class="list-group  position-fixed">
+                        <a class="list-group-item list-group-item-action" href="#list-item-1">Boeuf</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2">Poulet</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Snack</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4">Dessert</a>
+
+                      </div>
+                    </div>
+                    <div class="col-10">
+                      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                        <h4 class="text-center  fs-1 my-2 bg-orange rounded" id="list-item-1">BOEUF</h4>
+                        <div class="container my-2">
+                            <div class="row">
+                                <figure class="figure col-md-4">
+                                    <div class="z-3 position-absolute p-5 rounded-3"><span class="fs-2 text-warning">NOUVEAU </span><i class="text-warning bi bi-star-fill"></i></div>
+                                    <figcaption class="figure-caption"><h3 class="text-center text-">CroCheeseSalt</h3></figcaption>
+                                    <img src="https://media.istockphoto.com/id/1309352410/fr/photo/cheeseburger-avec-la-tomate-et-la-laitue-sur-la-planche-en-bois.jpg?s=612x612&w=0&k=20&c=xkOJoHX-1XYVzGnCWnCQKDpsfbKT4244cE099kvDuj0=" class="figure-img img-fluid roundedx" alt="...">
+
+                                </figure>
+                                <figure class="figure col-md-4">
+                                    <figcaption class="figure-caption"><h3 class="text-center text-">CroBacon</h3></figcaption>
+                                    <img src="https://media.istockphoto.com/id/1398630614/fr/photo/cheeseburger-au-bacon-sur-un-pain-grill%C3%A9.jpg?b=1&s=612x612&w=0&k=20&c=hH09oX6JmEerPcLefjHdcyFKqxH1a_ECiWap9y3MMo8=" class="figure-img img-fluid rounded" alt="...">
+                                </figure>
+                                <figure class="figure col-md-4">
+                                    <figcaption class="figure-caption"><h3 class="text-center text-">Croigon</h3></figcaption>
+                                    <img src="https://media.istockphoto.com/id/1206323282/fr/photo/hamburger-juteux-sur-le-fond-blanc.jpg?b=1&s=612x612&w=0&k=20&c=9TnxiiKKIgtEsy639NO5Jo_2uECaO2gc0NE8QhyBXVE=" class="figure-img img-fluid rounded" alt="...">
+                                </figure>
+                                <figure class="figure col-md-4">
+                                    <figcaption class="figure-caption"><h3 class="text-center text-">Burger</h3></figcaption>
+                                    <img src="https://media.istockphoto.com/id/1206323282/fr/photo/hamburger-juteux-sur-le-fond-blanc.jpg?b=1&s=612x612&w=0&k=20&c=9TnxiiKKIgtEsy639NO5Jo_2uECaO2gc0NE8QhyBXVE=" class="figure-img img-fluid rounded" alt="...">
+                                </figure>
+                                <figure class="figure col-md-4">
+                                    <figcaption class="figure-caption"><h3 class="text-center text-underline">Burger</h3></figcaption>
+                                    <img src="https://media.istockphoto.com/id/1206323282/fr/photo/hamburger-juteux-sur-le-fond-blanc.jpg?b=1&s=612x612&w=0&k=20&c=9TnxiiKKIgtEsy639NO5Jo_2uECaO2gc0NE8QhyBXVE=" class="figure-img img-fluid rounded" alt="...">
+                                </figure>
+                                      <figure class="figure col-md-4">
+                                        <figcaption class="figure-caption"><h3 class="text-center text-">CroCheeseSalt</h3></figcaption>
+                                        <img src="https://media.istockphoto.com/id/1309352410/fr/photo/cheeseburger-avec-la-tomate-et-la-laitue-sur-la-planche-en-bois.jpg?s=612x612&w=0&k=20&c=xkOJoHX-1XYVzGnCWnCQKDpsfbKT4244cE099kvDuj0=" class="figure-img img-fluid rounded" alt="...">
+                                       
+                                    </figure>
+                                  
+                            </div>
+                        </div>
+                        <h4 class="text-center fs-1 my-2 bg-orange rounded" id="list-item-2">Poulet</h4>
+                        <div class="container my-2">
+                            <div class="row">
+                                <figure class="figure col-md-4">
+                                    <figcaption class="figure-caption"><h3 class="text-center text-">CroChicken</h3></figcaption>
+                                    <img src="https://images.pexels.com/photos/918581/pexels-photo-918581.jpeg?auto=compress&cs=tinysrgb&w=1600" class="figure-img img-fluid rounded" alt="...">
+                                </figure>
+                                <figure class="figure col-md-4">
+                                    <figcaption class="figure-caption"><h3 class="text-center text-">CroBacon</h3></figcaption>
+                                    <img src="https://media.istockphoto.com/id/1398630614/fr/photo/cheeseburger-au-bacon-sur-un-pain-grill%C3%A9.jpg?b=1&s=612x612&w=0&k=20&c=hH09oX6JmEerPcLefjHdcyFKqxH1a_ECiWap9y3MMo8=" class="figure-img img-fluid rounded" alt="...">
+                                </figure>
+                                <figure class="figure col-md-4">
+                                    <figcaption class="figure-caption"><h3 class="text-center text-">Burger</h3></figcaption>
+                                    <img src="https://media.istockphoto.com/id/1206323282/fr/photo/hamburger-juteux-sur-le-fond-blanc.jpg?b=1&s=612x612&w=0&k=20&c=9TnxiiKKIgtEsy639NO5Jo_2uECaO2gc0NE8QhyBXVE=" class="figure-img img-fluid rounded" alt="...">
+                                </figure>
+                                <figure class="figure col-md-4">
+                                    <figcaption class="figure-caption"><h3 class="text-center text-">Burger</h3></figcaption>
+                                    <img src="https://media.istockphoto.com/id/1206323282/fr/photo/hamburger-juteux-sur-le-fond-blanc.jpg?b=1&s=612x612&w=0&k=20&c=9TnxiiKKIgtEsy639NO5Jo_2uECaO2gc0NE8QhyBXVE=" class="figure-img img-fluid rounded" alt="...">
+                                </figure>
+                            </div>
+                        </div>
+
+
+                        <h4 class="text-center fs-1 my-2 bg-orange rounded"  id="list-item-3">Snack</h4>
+                        <div class="container my-2">
+                            <div class="row">
+                        <figure class="figure col-md-4">
+                            <figcaption class="figure-caption"><h3 class="text-center text-">Frite</h3></figcaption>
+                            <img src="https://media.istockphoto.com/id/531189325/fr/photo/restauration-rapide.jpg?b=1&s=612x612&w=0&k=20&c=j4ADrFu2gKpoVUhsbb2_eSLMKuvraZhCl_FhIL0jOAY=" class="figure-img img-fluid rounded" alt="...">
+                        </figure>
+                        <figure class="figure col-md-4">
+                            <figcaption class="figure-caption"><h3 class="text-center text-">Nuggets</h3></figcaption>
+                            <img src="https://images.pexels.com/photos/11710530/pexels-photo-11710530.jpeg?auto=compress&cs=tinysrgb&w=1600" class="figure-img img-fluid rounded" alt="...">
+                        </figure>
+                        <figure class="figure col-md-4">
+                            <figcaption class="figure-caption"><h3 class="text-center text-">Oignons rings</h3></figcaption>
+                            <img src="https://images.pexels.com/photos/6941029/pexels-photo-6941029.jpeg?auto=compress&cs=tinysrgb&w=1600" class="figure-img img-fluid rounded" alt="...">
+                        </figure>
+                            </div>
+                        </div>
+
+                        <h4  class="text-center fs-1 my-2 bg-orange rounded" id="list-item-4">Dessert</h4>
+                        <div class="container my-2">
+                            <div class="row">
+                        <figure class="figure col-md-4">
+                            <div class="z-3 position-absolute p-5 rounded-3"><span class="fs-2 text-warning">NOUVEAU </span><i class="text-warning bi bi-star-fill"></i></div>
+                            <figcaption class="figure-caption"><h3 class="text-center text-">Cheesecake</h3></figcaption>
+                            <img src="https://media.istockphoto.com/id/1167344045/fr/photo/tranche-de-g%C3%A2teau-de-fromage-g%C3%A2teau-classique-de-fromage-de-mod%C3%A8le-de-new-york.jpg?b=1&s=612x612&w=0&k=20&c=Z4OV0ccJrF8gMwk9E3AvYMtGwH_AYoqMJ968YoxjB18=" class="figure-img img-fluid rounded" alt="...">
+                        </figure>
+                        <figure class="figure col-md-4">
+                            <figcaption class="figure-caption"><h3 class="text-center text-">Brownie</h3></figcaption>
+                            <img src="https://media.istockphoto.com/id/1255426185/fr/photo/d%C3%A9licieux-brownies-de-courgettes-au-chocolat.jpg?b=1&s=612x612&w=0&k=20&c=1OLcJvbfrZT7N2rW1KK85qShKlbSxqk_8pjr0gQ46Hk=" class="figure-img img-fluid rounded" alt="...">
+                        </figure>
+                        <figure class="figure col-md-4">
+                            <figcaption class="figure-caption"><h3 class="text-center text-">Pana cotta</h3></figcaption>
+                            <img src="https://media.istockphoto.com/id/508832706/fr/photo/dessert-avec-des-fraises-fra%C3%AEches-de-fromage-et-de-la-confiture-de-fraises.jpg?b=1&s=612x612&w=0&k=20&c=-2nORl_wNdznw6jAhkkwmnfb3gz-_j8GoQC0TKgBqhI=" class="figure-img img-fluid rounded" alt="...">
+                        </figure>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               
+
+
+
+            </section>
+        </main>
+        <footer class="w-100 bg-secondary text-light mt-2">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-3">
+                        <h2>Nos réseaux!</h2>
+                        <ul class="list-inline">
+                        <a href="https://www.facebook.com/?locale=fr_FR"> <i class="bi bi-facebook text-decoration-none text-light "></i></a> 
+                        <a href="https://www.instagram.com"> <i class="bi bi-instagram text-decoration-none text-light"></i></a> 
+                        <a href="https://twitter.com/?lang=fr"> <i class="bi bi-twitter text-decoration-none text-light"></i></a> 
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <h2>Livraisons</h2>
+                       <a href="https://www.ubereats.com/fr"> <img src="./img/uber.png" alt="Logo ubereat"></a>
+                       <a href="https://deliveroo.fr/fr/"> <img src="./img/deliveroo.png" alt="Logo ubereat"></a>
+    
+                    </div>
+                    <div class="col-3">
+                        <ul class="list-unstyled ">
+                            <li class="col-3 "><a href="./page_burger.html " class="text-decoration-none text-light" >Carte</a></li>
+                            <li  class="col-3"><a href="./page_recrut.html" class="text-decoration-none text-light">Recrutement</a></li>
+                            <li class="col-3"><a href="./page_localisation.html" class="text-decoration-none text-light">Localisation</a></li>
+                            <li class="col-3"> <a  href="./page_contact.html" class="text-decoration-none text-light">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3 gy-3">
+                        <a href="./page_burger.html " class="text-decoration-none text-light" >Mentions légales</a>
+                        <p>Site créé par [Pierre D.]</p>
+                    </div>
+                </div>
+             </div>
+            
+        </footer>
+    </body>
+</html>
